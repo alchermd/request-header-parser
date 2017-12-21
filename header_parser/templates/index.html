@@ -1,0 +1,18 @@
+{% extends 'layouts/master.html' %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+    <div class="jumbotron text-center">
+        <h1 class="display-3">Request Header Parser</h1>
+        <p class="lead">Inspect and parse your browser's User Agent.</p>
+        <hr class="my-4">
+        <p>
+            In fulfillment of the FreeCodeCamp's 
+            <a href="https://github.com/freeCodeCamp/freeCodeCamp#3-back-end-certification">Backend Certification</a>. Specs listed <a href="https://www.freecodecamp.org/challenges/request-header-parser-microservice">here</a>.
+        </p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="/api/whoami" role="button">Parse Header</a>
+        </p>
+    </div>
+{% endblock %}
